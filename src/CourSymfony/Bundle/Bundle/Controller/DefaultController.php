@@ -1,5 +1,6 @@
 <?php
-namespace Joli\BlogBundle\Controller;
+
+namespace CourSymfony\Bundle\Bundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -13,6 +14,6 @@ class DefaultController extends Controller
      */
     public function indexAction($name)
     {
-        return [ 'name' => $name ];
+        return array('name' => $name);
     }
 }

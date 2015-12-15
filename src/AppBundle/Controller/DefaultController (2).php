@@ -1,4 +1,5 @@
 <?php
+
 namespace Joli\BlogBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;

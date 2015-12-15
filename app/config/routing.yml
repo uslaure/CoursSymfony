@@ -1,3 +1,8 @@
+cours_symfony:
+    resource: "@CoursSymfonyBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
