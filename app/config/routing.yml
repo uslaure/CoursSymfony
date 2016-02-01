@@ -1,7 +1,6 @@
-cours_symfony:
-    resource: "@CoursSymfonyBundle/Controller/"
-    type:     annotation
-    prefix:   /
+blog:
+    resource: "@BlogBundle/Resources/config/routing.yml"
+    prefix:   /blog
 
 app:
     resource: "@AppBundle/Controller/"
